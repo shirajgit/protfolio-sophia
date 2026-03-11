@@ -2,42 +2,42 @@
 
 export default function PortfolioHomepage() {
   const skills = [
+    "Leadership",
+    "Marketing Strategy",
+    "Brand Growth",
     "React",
-    "TypeScript",
-    "Tailwind CSS",
-    "Next.js",
-    "Three.js",
-    "React Three Fiber",
-    "Framer Motion",
-    "Node.js",
-    "MongoDB",
-    "Figma",
+    "Ruby",
+    "Rust",
+    "FastAPI",
+    "WebSockets",
+    "Business Development",
+    "Product Vision",
   ];
 
   const projects = [
     {
-      title: "3D Portfolio Website",
-      desc: "An immersive personal portfolio with premium UI, smooth motion, and interactive 3D presentation.",
+      title: "Brand & Digital Growth Strategy",
+      desc: "Led strategic initiatives focused on brand visibility, digital positioning, and audience growth for Solasi.",
     },
     {
-      title: "Startup Landing Page",
-      desc: "A conversion-focused landing page with strong branding, polished layout, and responsive design.",
+      title: "Modern Web Experience",
+      desc: "Worked on creating premium digital experiences with a strong focus on clean design, usability, and performance.",
     },
     {
-      title: "Dashboard UI System",
-      desc: "A modern admin dashboard concept with analytics cards, charts, and clean component structure.",
+      title: "Product & Business Leadership",
+      desc: "Combined business direction with technical understanding to guide digital products from concept to execution.",
     },
     {
-      title: "E-Commerce Frontend",
-      desc: "A stylish storefront experience focused on product presentation, filters, and user-friendly flow.",
+      title: "Marketing & Communication Systems",
+      desc: "Built and refined communication strategies that helped improve engagement, trust, and business presentation.",
     },
     {
-      title: "Agency Website",
-      desc: "A sleek agency website built to communicate services, trust, and premium digital presence.",
+      title: "Tech-Driven Brand Presence",
+      desc: "Used modern web technologies and product thinking to strengthen the company’s digital identity and impact.",
     },
     {
-      title: "Product Showcase",
-      desc: "A modern product presentation page with strong visual hierarchy and interactive sections.",
+      title: "Innovation at Solasi",
+      desc: "Focused on blending leadership, marketing, and technology to create scalable and modern digital opportunities.",
     },
   ];
 
@@ -55,20 +55,21 @@ export default function PortfolioHomepage() {
           <div className="z-10 max-w-3xl">
             <div className="inline-flex items-center gap-2 rounded-full border border-yellow-400/20 bg-yellow-400/10 px-4 py-1.5 text-sm font-medium text-yellow-300 backdrop-blur-xl">
               <span className="h-2 w-2 rounded-full bg-yellow-300" />
-              CEO at Solasi
+              CEO & Marketing Manager at Solasi
             </div>
 
             <h1 className="mt-7 text-5xl font-black leading-[0.92] tracking-[-0.04em] md:text-7xl xl:text-[5.5rem]">
               Hi, I’m
               <span className="block bg-gradient-to-r from-yellow-200 via-yellow-400 to-orange-300 bg-clip-text text-transparent">
-             Sophia Lacayo
+                Sophia Lacayo
               </span>
             </h1>
 
             <p className="mt-6 max-w-2xl text-base leading-8 text-slate-300 md:text-lg">
-              I build modern web experiences with strong frontend visuals,
-              clean backend logic, and real-world product thinking. This
-              portfolio is designed to feel premium, interactive, and memorable.
+              I lead Solasi with a focus on business growth, brand strategy, and
+              modern digital experiences. With a background that blends marketing,
+              leadership, and technical understanding, I work at the intersection
+              of vision, communication, and innovation.
             </p>
 
             <div className="mt-9 flex flex-wrap gap-4">
@@ -86,7 +87,7 @@ export default function PortfolioHomepage() {
                 href="#about"
                 className="rounded-2xl border border-white/15 bg-white/5 px-6 py-3.5 font-semibold text-white backdrop-blur-xl transition duration-300 hover:border-white/25 hover:bg-white/10"
               >
-                About Me
+                About Sophia
               </a>
             </div>
 
@@ -103,16 +104,16 @@ export default function PortfolioHomepage() {
 
             <div className="mt-10 grid max-w-xl grid-cols-3 gap-4">
               <div className="rounded-2xl border border-white/10 bg-white/5 p-4 backdrop-blur-xl">
-                <p className="text-2xl font-bold text-yellow-300">MERN</p>
-                <p className="mt-1 text-sm text-slate-400">Full stack apps</p>
+                <p className="text-2xl font-bold text-yellow-300">CEO</p>
+                <p className="mt-1 text-sm text-slate-400">Business leadership</p>
               </div>
               <div className="rounded-2xl border border-white/10 bg-white/5 p-4 backdrop-blur-xl">
-                <p className="text-2xl font-bold text-yellow-300">UI</p>
-                <p className="mt-1 text-sm text-slate-400">Modern clean design</p>
+                <p className="text-2xl font-bold text-yellow-300">Marketing</p>
+                <p className="mt-1 text-sm text-slate-400">Brand & growth strategy</p>
               </div>
               <div className="rounded-2xl border border-white/10 bg-white/5 p-4 backdrop-blur-xl">
-                <p className="text-2xl font-bold text-yellow-300">Code</p>
-                <p className="mt-1 text-sm text-slate-400">Scalable structure</p>
+                <p className="text-2xl font-bold text-yellow-300">Tech</p>
+                <p className="mt-1 text-sm text-slate-400">Modern web understanding</p>
               </div>
             </div>
           </div>
@@ -126,16 +127,16 @@ export default function PortfolioHomepage() {
             <div className="relative overflow-hidden rounded-[2rem] border border-white/10 bg-white/5 p-4 shadow-2xl shadow-black/40 backdrop-blur-2xl">
               <img
                 src={profile}
-                alt="Shiraj Mujawar"
+                alt="Sophia Lacayo"
                 className="h-[420px] w-[320px] rounded-[1.5rem] object-cover md:h-[520px] md:w-[380px]"
               />
 
               <div className="absolute left-4 top-4 rounded-2xl border border-white/10 bg-black/30 px-4 py-2 text-sm text-slate-200 backdrop-blur-xl">
-                Shiraj Mujawar
+                Sophia Lacayo
               </div>
 
               <div className="absolute bottom-4 right-4 rounded-2xl border border-white/10 bg-black/30 px-4 py-3 text-sm text-slate-300 backdrop-blur-xl">
-                MERN Stack Developer
+                CEO & Marketing Manager at Solasi
               </div>
             </div>
           </div>
@@ -146,50 +147,52 @@ export default function PortfolioHomepage() {
       <section id="about" className="mx-auto max-w-7xl px-6 py-24 md:px-10">
         <div className="mb-12 max-w-2xl">
           <p className="text-sm uppercase tracking-[0.3em] text-yellow-300">
-            About Me
+            About Sophia
           </p>
           <h2 className="mt-4 text-3xl font-bold tracking-tight md:text-5xl">
-            Building clean products with strong visuals
+            Leadership, marketing, and digital innovation
           </h2>
           <p className="mt-5 leading-8 text-slate-300">
-            I focus on creating modern interfaces, smooth user experiences, and
-            practical full stack solutions. I enjoy turning ideas into polished,
-            real-world digital products.
+            Sophia Lacayo brings together executive leadership, marketing
+            strategy, and a practical understanding of web technologies. As CEO
+            of Solasi, she focuses on business direction, communication, brand
+            presence, and building modern digital opportunities that create real impact.
           </p>
         </div>
 
         <div className="grid gap-6 lg:grid-cols-[1.1fr_0.9fr]">
           <div className="rounded-[2rem] border border-white/10 bg-white/5 p-8 shadow-xl shadow-black/20 backdrop-blur-2xl">
-            <h3 className="text-2xl font-semibold">What I bring</h3>
+            <h3 className="text-2xl font-semibold">What she brings</h3>
             <p className="mt-4 leading-8 text-slate-300">
-              I combine frontend creativity with backend understanding, which
-              helps me build websites and applications that not only look good
-              but also work well in real use cases.
+              With experience in leadership and marketing, along with knowledge
+              of modern development tools like React, Ruby, Rust, FastAPI, and
+              WebSockets, she understands both the business side and the digital
+              execution side of building modern products and brands.
             </p>
 
             <div className="mt-8 grid gap-4 md:grid-cols-2">
               <div className="rounded-2xl border border-white/10 bg-black/20 p-5">
-                <p className="font-semibold text-white">Modern UI</p>
+                <p className="font-semibold text-white">Executive Leadership</p>
                 <p className="mt-2 text-sm leading-6 text-slate-400">
-                  Clean interfaces with strong visual hierarchy.
+                  Driving company vision, growth, and long-term direction.
                 </p>
               </div>
               <div className="rounded-2xl border border-white/10 bg-black/20 p-5">
-                <p className="font-semibold text-white">Frontend Focus</p>
+                <p className="font-semibold text-white">Marketing Strategy</p>
                 <p className="mt-2 text-sm leading-6 text-slate-400">
-                  Responsive and interactive web experiences.
+                  Building strong brand identity and communication systems.
                 </p>
               </div>
               <div className="rounded-2xl border border-white/10 bg-black/20 p-5">
-                <p className="font-semibold text-white">Backend Logic</p>
+                <p className="font-semibold text-white">Technical Awareness</p>
                 <p className="mt-2 text-sm leading-6 text-slate-400">
-                  APIs, authentication, and data-driven features.
+                  Familiar with modern web development and scalable technologies.
                 </p>
               </div>
               <div className="rounded-2xl border border-white/10 bg-black/20 p-5">
-                <p className="font-semibold text-white">Product Thinking</p>
+                <p className="font-semibold text-white">Product Vision</p>
                 <p className="mt-2 text-sm leading-6 text-slate-400">
-                  I build with usability and growth in mind.
+                  Aligning business goals with digital product execution.
                 </p>
               </div>
             </div>
@@ -201,11 +204,11 @@ export default function PortfolioHomepage() {
             </p>
             <div className="mt-6 space-y-4">
               {[
-                "Premium hero section with your profile picture",
-                "Modern glassmorphism card design",
-                "Clean section spacing and layout",
-                "Strong personal branding look",
-                "Portfolio ready for customization",
+                "CEO at Solasi",
+                "Marketing Manager at Solasi",
+                "Strong business and brand leadership",
+                "Knowledge of React, Ruby, Rust, FastAPI, and WebSockets",
+                "Blends strategy, communication, and technology",
               ].map((item) => (
                 <div
                   key={item}
@@ -224,16 +227,16 @@ export default function PortfolioHomepage() {
         <div className="mb-12 flex flex-col justify-between gap-6 md:flex-row md:items-end">
           <div>
             <p className="text-sm uppercase tracking-[0.3em] text-yellow-300">
-              Featured Projects
+              Featured Work
             </p>
             <h2 className="mt-3 text-3xl font-bold tracking-tight md:text-5xl">
-              Work that looks clean and premium
+              Strategy, leadership, and digital growth
             </h2>
           </div>
 
           <p className="max-w-xl leading-7 text-slate-400">
-            Replace these project cards with your real work, GitHub links, case
-            studies, and screenshots.
+            A showcase of the leadership, marketing direction, and digital
+            thinking that shape Solasi’s modern presence.
           </p>
         </div>
 
@@ -261,7 +264,7 @@ export default function PortfolioHomepage() {
 
                 <div className="mt-6 flex items-center justify-between">
                   <button className="rounded-xl border border-yellow-400/30 bg-yellow-400/10 px-4 py-2 text-sm font-medium text-yellow-300 transition hover:bg-yellow-400/15">
-                    View Project
+                    View Details
                   </button>
 
                   <span className="text-sm text-slate-500 transition group-hover:text-slate-300">
@@ -280,15 +283,15 @@ export default function PortfolioHomepage() {
           <div className="flex flex-col gap-5 md:flex-row md:items-end md:justify-between">
             <div>
               <p className="text-sm uppercase tracking-[0.3em] text-yellow-300">
-                Stack
+                Expertise
               </p>
               <h2 className="mt-3 text-3xl font-bold tracking-tight md:text-5xl">
-                Tech I work with
+                Leadership meets technology
               </h2>
             </div>
             <p className="max-w-xl leading-7 text-slate-400">
-              A modern mix of frontend tools, backend technologies, and design
-              systems used to create polished digital products.
+              A blend of business strategy, marketing leadership, and modern web
+              technology awareness used to shape impactful digital experiences.
             </p>
           </div>
 
@@ -314,11 +317,11 @@ export default function PortfolioHomepage() {
               Contact
             </p>
             <h2 className="mt-3 max-w-4xl text-3xl font-bold tracking-tight md:text-5xl">
-              Let’s build something modern together
+              Let’s build something impactful together
             </h2>
             <p className="mt-5 max-w-2xl leading-8 text-slate-300">
-              You can now replace this section with your GitHub, LinkedIn, email,
-              WhatsApp, resume link, and any call-to-action you want.
+              Connect with Sophia Lacayo to discuss leadership, partnerships,
+              marketing strategy, digital growth, and modern business opportunities through Solasi.
             </p>
 
             <div className="mt-8 flex flex-wrap gap-4">
@@ -326,13 +329,13 @@ export default function PortfolioHomepage() {
                 href="#"
                 className="rounded-2xl bg-yellow-400 px-6 py-3.5 font-semibold text-black shadow-lg shadow-yellow-500/20 transition hover:-translate-y-0.5"
               >
-                Contact Me
+                Contact Sophia
               </a>
               <a
                 href="#projects"
                 className="rounded-2xl border border-white/15 bg-white/5 px-6 py-3.5 font-semibold text-white backdrop-blur-xl transition hover:bg-white/10"
               >
-                View Projects
+                View Work
               </a>
             </div>
           </div>
