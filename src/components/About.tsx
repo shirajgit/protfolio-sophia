@@ -1,5 +1,6 @@
  
 import { motion } from "framer-motion";
+import { FaCrown, FaBullhorn, FaCode, FaEye } from "react-icons/fa";
 
 const fadeUp = {
   hidden: { opacity: 0, y: 26 },
@@ -18,18 +19,22 @@ const cards = [
   {
     title: "Executive Leadership",
     desc: "Guiding business direction, long-term growth, and strategic decision-making with clarity and purpose.",
+    icon: <FaCrown />,
   },
   {
     title: "Marketing Strategy",
     desc: "Building stronger brand presence, communication systems, and digital positioning.",
+    icon: <FaBullhorn />,
   },
   {
     title: "Technical Awareness",
     desc: "Understanding modern technologies and digital systems that support scalable business experiences.",
+    icon: <FaCode />,
   },
   {
     title: "Product Vision",
     desc: "Connecting business goals with modern execution, usability, and digital opportunity.",
+    icon: <FaEye />,
   },
 ];
 
@@ -109,22 +114,31 @@ const About = () => {
 
             <div className="mt-10 grid gap-4 md:grid-cols-2">
               {cards.map((card, index) => (
-                <motion.div
-                  key={card.title}
-                  initial={{ opacity: 0, y: 24 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  viewport={{ once: true, amount: 0.3 }}
-                  transition={{ duration: 0.65, delay: index * 0.08 }}
-                  whileHover={{ y: -6 }}
-                  className="group rounded-[1.7rem] border border-white/10 bg-[#0d1728]/80 p-5 shadow-xl shadow-black/20 backdrop-blur-xl transition"
-                >
-                  <div className="mb-4 h-10 w-10 rounded-2xl bg-gradient-to-br from-cyan-400/20 to-indigo-400/20 ring-1 ring-white/10" />
-                  <p className="text-lg font-semibold text-white">{card.title}</p>
-                  <p className="mt-2 text-sm leading-7 text-slate-400">
-                    {card.desc}
-                  </p>
-                </motion.div>
-              ))}
+  <motion.div
+    key={card.title}
+    initial={{ opacity: 0, y: 24 }}
+    whileInView={{ opacity: 1, y: 0 }}
+    viewport={{ once: true, amount: 0.3 }}
+    transition={{ duration: 0.65, delay: index * 0.08 }}
+    whileHover={{ y: -6 }}
+    className="group rounded-[1.7rem] border border-white/10 bg-[#0d1728]/80 p-5 shadow-xl shadow-black/20 backdrop-blur-xl transition"
+  >
+    
+    {/* ICON */}
+    <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-2xl bg-gradient-to-br from-cyan-400/20 to-indigo-400/20 text-cyan-300 text-xl ring-1 ring-white/10">
+      {card.icon}
+    </div>
+
+    <p className="text-lg font-semibold text-white">
+      {card.title}
+    </p>
+
+    <p className="mt-2 text-sm leading-7 text-slate-400">
+      {card.desc}
+    </p>
+
+  </motion.div>
+))}
             </div>
           </motion.div>
 
