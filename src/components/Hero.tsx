@@ -79,7 +79,7 @@ const Hero = () => {
 
       <BackgroundScene />
 
-      <div className="relative mx-auto flex min-h-screen max-w-7xl items-center px-6 py-14 md:px-10 lg:px-2">
+      <div className="relative mx-auto flex min-h-screen max-w-7xl items-center px-6 py-24 md:px-10 lg:px-2">
         <div className="grid w-full items-center gap-14 lg:grid-cols-[1.05fr_0.95fr]">
           {/* LEFT */}
           <motion.div
