@@ -105,7 +105,7 @@ const Hero = () => {
 
             <motion.h1
               variants={item}
-              className="mt-5 text-5xl font-black leading-[0.88] tracking-[-0.06em] md:text-7xl xl:text-[6rem]"
+              className="mt-5 text-5xl font-black leading-[0.88] tracking-[-0.06em] md:text-7xl xl:text-[5rem]"
             >
               Leading with
               <span className="block text-white/65">clarity, brand,</span>
@@ -182,7 +182,7 @@ const Hero = () => {
               transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" }}
               className="absolute -left-6 top-10 z-20 hidden rounded-3xl border border-white/10 bg-white/10 px-5 py-4 shadow-2xl shadow-black/30 backdrop-blur-2xl lg:block"
             >
-              <p className="text-xs uppercase tracking-[0.25em] text-slate-400">
+              <p className="text-xs uppercase tracking-[0.25em] text-slate-700">
                 Expertise
               </p>
               <p className="mt-2 text-sm font-semibold text-white">
