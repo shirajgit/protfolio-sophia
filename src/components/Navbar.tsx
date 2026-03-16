@@ -1,5 +1,6 @@
 import   { useEffect, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
+import profile from "../assets/solasi-logo.png";
 
 const navLinks = [
   { label: "About", href: "#about" },
@@ -71,16 +72,14 @@ const Navbar = () => {
           {/* Logo */}
           <a href="#" className="group flex items-center gap-3">
             <div className="relative flex h-11 w-11 items-center justify-center rounded-full border border-cyan-400/20 bg-gradient-to-br from-cyan-400/20 to-indigo-500/20 shadow-[0_0_30px_rgba(34,211,238,0.12)]">
-              <div className="absolute inset-0 rounded-full bg-cyan-400/10 blur-md" />
-              <span className="relative text-sm font-bold tracking-[0.2em] text-white">
-                SL
-              </span>
+            
+              <img src={profile} alt="profile" className="rounded-full" />
             </div>
 
             <div className="hidden sm:block">
               <p className="text-sm font-semibold text-white">Sophia Lacayo</p>
               <p className="text-xs tracking-[0.24em] text-slate-400 uppercase">
-                Solasi
+                Solasi.
               </p>
             </div>
           </a>

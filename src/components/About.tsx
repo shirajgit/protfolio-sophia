@@ -1,5 +1,4 @@
- 
-import { motion } from "framer-motion";
+ import { motion } from "framer-motion";
 import { FaCrown, FaBullhorn, FaCode, FaEye } from "react-icons/fa";
 
 const fadeUp = {
